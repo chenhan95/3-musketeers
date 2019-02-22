@@ -25,8 +25,8 @@ With it, you can enter the currency which you what to know the rates, then run t
 ### Setup
 Clone this repo to your desktop and you might want to look into `currencies.json` to check the short-name of currencies.
 
-### How to define the currency
-You can modify the national currencies in `constants.js`
+### Change the currency
+You can modify the national currencies in `constants.js`, in the array list `DEFAULT_TO_CURRENCIES` , the first element is 'reference currency', the last three elements are 'query curreny'.
 <p align="center">
   <img src="https://github.com/chenhan95/3-musketeers/blob/master/cash/image/currencies.png">
 </p>

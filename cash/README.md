@@ -6,7 +6,7 @@ cash is a tool to calculate the real-time exchange rates for national currencies
   <img src="https://github.com/chenhan95/3-musketeers/blob/master/cash/image/introduction.png" height = 200px>
 </p>
 
-With it, you can enter the currency which you what to know the rates, then run the index.js, it will show the result.
+With it, you can enter the currency which you what to convert, then run the index.js, it will show the result rates.
 
 
 ## Table of content
@@ -26,7 +26,7 @@ With it, you can enter the currency which you what to know the rates, then run t
 Clone this repo to your desktop and you might want to look into `currencies.json` to check the short-name of currencies.
 
 ### Change the currency
-You can modify the national currencies in `constants.js`, in the array list `DEFAULT_TO_CURRENCIES` , the first element is 'reference currency', the last three elements are 'query curreny'.
+You can modify the national currencies in `constants.js`, in the array list `DEFAULT_TO_CURRENCIES` , the first element is 'reference currency', the last three elements are 'query curreny', you can change them to other national currency that you want.
 <p align="center">
   <img src="https://github.com/chenhan95/3-musketeers/blob/master/cash/image/currencies.png">
 </p>

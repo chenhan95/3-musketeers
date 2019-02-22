@@ -5,9 +5,28 @@ const money = require('money');
 const chalk = require('chalk');
 const ora = require('ora');
 const currencies = require('../lib/currencies.json');
+/**
+ * @requires got
+ * @requires money
+ * @requires chalk
+ * @requires ora
+ * @file currencies
+ */
 
 const {API} = require('./constants');
+/**
+ * @requires API
+ */
 
+
+
+/**
+ * Class currency convert
+ * @param {Array.<number>>} amout
+ * @param {String} from
+ * @param {String} to
+ * @returns {Promise<void>}
+ */
 const cash = async command => {
 	const {amount} = command;
 	const from = command.from.toUpperCase();
@@ -24,7 +43,9 @@ const cash = async command => {
 	});
 
 	loading.start();
-
+    /**
+	 * @function got()  get the data from the URL
+     */
 	await got(API, {
 		json: true
 	}).then(response => {
@@ -38,7 +59,6 @@ const cash = async command => {
 				loading.warn(`${chalk.yellow(`The "${item}" currency not found `)}`);
 			}
 		});
-
 		console.log(chalk.underline.gray(`\nConversion of ${chalk.bold(from)} ${chalk.bold(amount)}`));
 	}).catch(error => {
 		if (error.code === 'ENOTFOUND') {
@@ -50,4 +70,7 @@ const cash = async command => {
 	});
 };
 
+/**
+ * @type {cash}   export 'cash' to be used in index.js
+ */
 module.exports = cash;

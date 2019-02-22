@@ -1,30 +1,31 @@
 # **cash**  
-<p align="center">
-  <img src="https://github.com/chenhan95/3-musketeers/blob/master/cash/image/introduction.png">
-</p>
 
 ##  Introduction
 cash is a tool to calculate the real-time exchange rates for national currencies .
+<p align="center">
+  <img src="https://github.com/chenhan95/3-musketeers/blob/master/cash/image/introduction.png" height = 200px>
+</p>
 
 With it, you can enter the currency which you what to know the rates, then run the index.js, it will show the result.
 
-##Table of content
+
+## Table of content
 - [How it works](#How-it-works)
 - [Usage](#Usage)
     - [Change the currency](#Change-the-currency)
     - [How to run it](#How-to-run-it)
 
 
-##How it works
+## How it works
 
 
 
 
 ##  Usage
-###Setup
+### Setup
 Clone this repo to your desktop and you might want to look into `currencies.json` to check the short-name of currencies.
 
-###How to define the currency
+### How to define the currency
 You can modify the national currencies in `constants.js`
 <p align="center">
   <img src="https://github.com/chenhan95/3-musketeers/blob/master/cash/image/currencies.png">

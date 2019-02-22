@@ -1,6 +1,6 @@
 # **cash**  
 <p align="center">
-  <img src="./cash/image/introduction.png">
+  <img src="https://github.com/chenhan95/3-musketeers/blob/master/cash/image/introduction.png">
 </p>
 
 ##  Introduction
@@ -26,6 +26,9 @@ Clone this repo to your desktop and you might want to look into `currencies.json
 
 ###How to define the currency
 You can modify the national currencies in `constants.js`
+<p align="center">
+  <img src="https://github.com/chenhan95/3-musketeers/blob/master/cash/image/currencies.png">
+</p>
 
 
 ### How to run it
@@ -53,5 +56,5 @@ Open the terminal, and enter the command below:
 ```
 ***Result：***
 <p align="center">
-  <img src="./cash/image/result.png">
+  <img src="https://github.com/chenhan95/3-musketeers/blob/master/cash/image/result.png">
 </p>

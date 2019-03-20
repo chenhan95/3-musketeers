@@ -25,11 +25,12 @@ describe('starwars-names', () => {
 
   describe('random', () => {
     test('should return a random item from the starWars.all', () => {
-        expect(starWars.all).toContain(starWars.random())
+        expect(starWars.all).toContain(starWars.random());
     });
 
     test('should return an array of random items if passed a number', () => {
-      throw new Error('test not yet defined... remove the throw and write your test here');
+        results = starWars.random(5);
+        expect(results instanceof Array).toEqual(true);
     });
   });
 

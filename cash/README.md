@@ -10,16 +10,32 @@ With it, you can enter the currency which you what to convert, then run the inde
 
 
 ## Table of content
-- [How it works](#How-it-works)
+- [Dependencies](#Dependencies)
+- [Modules](#Modules)
 - [Usage](#Usage)
     - [Change the currency](#Change-the-currency)
     - [How to run it](#How-to-run-it)
 
 
-## How it works
+## Dependencies
+There exits some dependencies that need to be install
+```sh
+	"dependencies": {
+		"chalk": "^2.4.2",
+		"conf": "^2.2.0",
+		"got": "^9.6.0",
+		"meow": "^5.0.0",
+		"money": "^0.2.0",
+		"ora": "^3.2.0"
+	}
+```
 
+## Modules
+`constants.js` include some configuration parameter .
 
+`index.js` is used to get user's input.
 
+`constants.js` is the main module which is used to calculate currencies .
 
 ##  Usage
 ### Setup
